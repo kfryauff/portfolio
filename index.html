@@ -7,6 +7,10 @@
   <!-- TODO: Change Title for Launch -->
   <title>K. Fryauff</title>
 
+  <!-- FontKit -->
+  <script src="//use.typekit.net/upv8lie.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   <!-- JQUERY INCLUDES -->
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -22,26 +26,28 @@
   <!-- Link Custom CSS -->
   <link rel="stylesheet" href="css/custom.css">
 
-  <!-- TODO: FontKit -->
-
   <!-- Example CSS-->
   <style>
-  body {
-    position: relative;
-  }
 
-  #landing, #projects, #resume {
-    padding: 50px auto;
-    height:auto;
-    color: #fff;
-    background-color: #000;
-  }
-  #aboutme, #skills {padding-top:50px;height:80vh;color: #000; background-color: #fff;}
+
+    .section:nth-child(odd) {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      min-height: 90vh;
+      color: #fff;
+      background-color: #000;
+    }
+    .section:nth-child(even) {
+      padding-top:50px;
+      height:80vh;
+      color: #000;
+      background-color: #fff;
+    }
   </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav id="header" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -55,8 +61,11 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="#aboutme">Me</a></li>
+            <li>.</li>
             <li><a href="#projects">Projects</a></li>
+            <li>.</li>
             <li><a href="#skills">Skills</a></li>
+            <li>.</li>
             <li><a href="#resume">Resume</a></li>
           </ul>
         </div>
@@ -64,58 +73,63 @@
     </div>
   </nav>
 
-  <div id="landing" class="container-fluid">
-    <div class="row row-centered">
-      <div class="col-xs-12 col-md-5">
-        <div id="card" class="center">
-          <h3>Krista Fryauff</h3>
-          <br />
-          <button class="btn">Contact Me ></button>
+  <div id="pages">
+    <div id="landing" class="section container-fluid">
+      <div class="row row-centered">
+        <div class="col-xs-12 col-sm-4">
+          <div id="feature" class="center">
+            <h3>featured</h3>
+          </div>
+        </div>
+      </div>
+      <div id="card_row" class="row row-centered">
+        <div class="col-xs-12 col-sm-5 col-centered">
+          <div id="card" class="center">
+            <h3>Krista Fryauff</h3>
+            <button class="btn">Contact Me ></button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-right">
+        <div class="col-xs-12 col-sm-4 col-right">
+          <div id="feature" class="center">
+            <h3>featured</h3>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row row-centered">
-      <div class="col-xs-12 col-md-5 col-centered">
-        <div id="card" class="center">
-          <h3>Krista Fryauff</h3>
-          <br />
-          <button class="btn">Contact Me ></button>
-        </div>
-      </div>
+    <div id="aboutme" class="section container-fluid">
+      <h1>About Me</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div>
-    <div class="row row-right">
-      <div class="col-xs-12 col-md-5 col-right">
-        <div id="card" class="center">
-          <h3>Krista Fryauff</h3>
-          <br />
-          <button class="btn">Contact Me ></button>
-        </div>
-      </div>
+    <div id="projects" class="section container-fluid">
+      <h1>Projects</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div>
-  </div>
-  <div id="aboutme" class="container-fluid">
-    <h1>About Me</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
-  <div id="projects" class="container-fluid">
-    <h1>Projects</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
-  <div id="skills" class="container-fluid">
-    <h1>Skills</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
-  <div id="resume" class="container-fluid">
-    <h1>Resume</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <div id="skills" class="section container-fluid">
+      <h1>Skills</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+    <div id="resume" class="section container-fluid">
+      <h1>Resume</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
   </div>
 
   <nav class="navbar navbar-inverse navbar-fixed-bottom">
-    <div id="footer">Design . Develop . Discover</div>
+    <div id="footer">
+      <ul class="nav navbar-nav null">
+        <li>Design</li>
+        <li>.</li>
+        <li>Develop</li>
+        <li>.</li>
+        <li>Discover</li>
+      </ul>
+    </div>
   </nav>
 
 

@@ -1,9 +1,8 @@
 (function (){
-  var app = angular.module('portfolio', []);
 
-  app.controller('PortfolioController', function() {
-    this.project = project1;
-  });
+  var app = angular.module('portfolio', ['profileCtrl']);
+
+
 
   var project1 = {
     name: "project1",

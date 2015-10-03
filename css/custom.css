@@ -5,47 +5,63 @@
 #card {
   background-image: url("../images/k_bg.png");
   background-size: auto 100%;
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
-  border: 2px gray solid;
-  opacity: 0.9;
+  border: 2px white solid;
+  opacity: .55;
   width: 100%;
-  padding: 20px; }
+  padding: 20px;
+  margin: -80px 0px;
+  min-height: 30vh;
+  max-height: 230px;
+  z-index: -1; }
 
-body::-webkit-scrollbar {
-  width: 1em; }
-body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey; }
-body .center {
-  text-align: center;
-  margin: 0 auto; }
-body .row-centered {
-  text-align: center;
+#feature {
+  border: 1px gray solid;
+  height: 25vh;
+  min-height: 216px; }
+
+#landing > * {
   vertical-align: middle; }
-body .row-right {
-  text-align: right;
-  vertical-align: middle; }
-body .col-centered {
-  display: inline-block;
-  float: none;
-  /* reset the text-align */
-  text-align: left;
-  /* inline-block space fix */
-  margin: 0 auto; }
-body .col-right {
-  display: inline-block;
-  float: none;
-  /* reset the text-align */
-  text-align: right;
-  /* inline-block space fix */
-  margin: 0 0 0 auto; }
+
+body {
+  position: relative; }
+  body::-webkit-scrollbar {
+    width: 1em; }
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey; }
+  body .center {
+    text-align: center;
+    margin: 0 auto; }
+  body .row-centered {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    height: 1; }
+  body .row-right {
+    text-align: right;
+    vertical-align: middle; }
+  body .col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin: 0 auto; }
+  body .col-right {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: right;
+    /* inline-block space fix */
+    margin: 0 0 0 auto; }
 
 #body_container {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   height: 100vh;
   overflow: scroll; }
 
@@ -60,40 +76,23 @@ body .col-right {
   .btn:hover {
     background: gray; }
 
-@media (min-width: 768px) {
+@media (min-width: 350px) {
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top; }
 
   .navbar .navbar-collapse, .navbar .navbar- {
-    text-align: center; } }
-@media (max-width: 100px) {
-  .navbar-header {
-    float: none; }
-
-  .navbar-toggle {
-    display: block; }
-
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
-
-  .navbar-collapse.collapse {
-    display: none !important; }
-
-  .navbar-collapse.collapse.in {
-    display: block !important; }
-
-  .navbar-nav {
-    float: none !important;
-    margin: 7.5px -15px; }
-
-  .navbar-nav > li {
-    float: none; }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px; } }
+    text-align: center;
+    text-shadow: none; } }
+@media (max-width: 768px) {
+  #landing .row {
+    margin: 10px; }
+    #landing .row #card {
+      margin: 0;
+      background-color: black; } }
+@media (min-width: 450px) {
+  .collapse {
+    display: none !important; } }
 
 /*# sourceMappingURL=custom.css.map */
