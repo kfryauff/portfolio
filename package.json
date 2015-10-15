@@ -1,0 +1,19 @@
+{
+  "name": "kf_portfolio",
+  "version": "1.0.0",
+  "description": "digital portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfryauff/portfolio.git"
+  },
+  "author": "kfryauff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kfryauff/portfolio/issues"
+  },
+  "homepage": "https://github.com/kfryauff/portfolio#readme"
+}

@@ -1,0 +1,1408 @@
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+  {font-family:"Courier New";
+  panose-1:2 7 3 9 2 2 5 2 4 4;
+  mso-font-charset:0;
+  mso-generic-font-family:auto;
+  mso-font-pitch:variable;
+  mso-font-signature:3 0 0 0 1 0;}
+@font-face
+  {font-family:Wingdings;
+  panose-1:5 0 0 0 0 0 0 0 0 0;
+  mso-font-charset:2;
+  mso-generic-font-family:auto;
+  mso-font-pitch:variable;
+  mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+  {font-family:Wingdings;
+  panose-1:5 0 0 0 0 0 0 0 0 0;
+  mso-font-charset:2;
+  mso-generic-font-family:auto;
+  mso-font-pitch:variable;
+  mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+  {font-family:Cambria;
+  panose-1:2 4 5 3 5 4 6 3 2 4;
+  mso-font-charset:0;
+  mso-generic-font-family:auto;
+  mso-font-pitch:variable;
+  mso-font-signature:-536870145 1073743103 0 0 415 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+  {mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-parent:"";
+  margin:0in;
+  margin-bottom:.0001pt;
+  mso-pagination:widow-orphan;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+  {mso-style-priority:99;
+  mso-style-link:"Header Char";
+  margin:0in;
+  margin-bottom:.0001pt;
+  mso-pagination:widow-orphan;
+  tab-stops:center 3.25in right 6.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:.5in;
+  margin-bottom:.0001pt;
+  mso-add-space:auto;
+  mso-pagination:widow-orphan;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-type:export-only;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:.5in;
+  margin-bottom:.0001pt;
+  mso-add-space:auto;
+  mso-pagination:widow-orphan;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-type:export-only;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:.5in;
+  margin-bottom:.0001pt;
+  mso-add-space:auto;
+  mso-pagination:widow-orphan;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-type:export-only;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:.5in;
+  margin-bottom:.0001pt;
+  mso-add-space:auto;
+  mso-pagination:widow-orphan;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";}
+span.HeaderChar
+  {mso-style-name:"Header Char";
+  mso-style-priority:99;
+  mso-style-unhide:no;
+  mso-style-locked:yes;
+  mso-style-link:Header;
+  font-family:"Times New Roman";
+  mso-ascii-font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";}
+span.SpellE
+  {mso-style-name:"";
+  mso-spl-e:yes;}
+.MsoChpDefault
+  {mso-style-type:export-only;
+  mso-default-props:yes;
+  font-family:Cambria;
+  mso-ascii-font-family:Cambria;
+  mso-ascii-theme-font:minor-latin;
+  mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+  mso-fareast-theme-font:minor-fareast;
+  mso-hansi-font-family:Cambria;
+  mso-hansi-theme-font:minor-latin;
+  mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;}
+@page WordSection1
+  {size:8.5in 11.0in;
+  margin:31.5pt 1.25in 13.5pt 1.25in;
+  mso-header-margin:.5in;
+  mso-footer-margin:.5in;
+  mso-paper-source:0;}
+div.WordSection1
+  {page:WordSection1;}
+ /* List Definitions */
+@list l0
+  {mso-list-id:56050353;
+  mso-list-type:hybrid;
+  mso-list-template-ids:2146474240 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l0:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l0:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l0:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l0:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l0:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l0:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l0:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l0:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l1
+  {mso-list-id:146822054;
+  mso-list-type:hybrid;
+  mso-list-template-ids:-1760505660 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l1:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l1:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l1:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l1:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l1:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l1:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l1:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l1:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l2
+  {mso-list-id:484274344;
+  mso-list-type:hybrid;
+  mso-list-template-ids:1184407156 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l2:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l2:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l2:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l2:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l2:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l2:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l2:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l2:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l3
+  {mso-list-id:676036391;
+  mso-list-type:hybrid;
+  mso-list-template-ids:-1718325882 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l3:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l3:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l3:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l3:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l3:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l3:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l3:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l3:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l4
+  {mso-list-id:907612115;
+  mso-list-type:hybrid;
+  mso-list-template-ids:1555208156 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l4:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l4:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l4:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l4:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l4:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l4:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l4:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l4:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l5
+  {mso-list-id:917443039;
+  mso-list-type:hybrid;
+  mso-list-template-ids:-1448986898 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l5:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l5:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l5:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l5:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l5:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l5:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l5:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l5:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l6
+  {mso-list-id:1139956273;
+  mso-list-type:hybrid;
+  mso-list-template-ids:1513024264 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l6:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l6:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l6:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l6:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l6:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l6:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l6:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l6:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l7
+  {mso-list-id:1256134398;
+  mso-list-type:hybrid;
+  mso-list-template-ids:-1425479376 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l7:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l7:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l7:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l7:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l7:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l7:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l7:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l7:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l8
+  {mso-list-id:1783572776;
+  mso-list-type:hybrid;
+  mso-list-template-ids:574028948 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l8:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l8:level2
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l8:level3
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l8:level4
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.5in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l8:level5
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.0in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l8:level6
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:2.5in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+@list l8:level7
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l8:level8
+  {mso-level-number-format:bullet;
+  mso-level-text:o;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:3.5in;
+  text-indent:-.25in;
+  font-family:"Courier New";
+  mso-bidi-font-family:"Courier New";}
+@list l8:level9
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0A7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:4.0in;
+  text-indent:-.25in;
+  font-family:Wingdings;}
+ol
+  {margin-bottom:0in;}
+ul
+  {margin-bottom:0in;}
+-->
+</style>
+<div id="resume" class="section_content container-fluid">
+  <!-- <h1>Resume</h1> -->
+
+
+  <div class=WordSection1>
+
+    <p class=MsoHeader align=center style='text-align:center'><b><span
+    style='font-size:16.0pt;mso-bidi-font-size:18.0pt;font-variant:small-caps'>Krista
+    Caroline <span class=SpellE>Fryauff</span><o:p></o:p></span></b></p>
+
+    <p class=MsoNormal align=center style='
+    text-align:center'><span
+    style='font-size:9.0pt'>P.O. Box 17678 &bull; Stanford, CA 94309 &bull; 240-418-8211 </span><a
+    href="mailto:KFryauff@stanford.edu"><span style='font-size:9.0pt;color:windowtext;
+    text-decoration:none;text-underline:none'>kfryauff@stanford.edu</span></a><span
+    style='font-size:9.0pt'><o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    margin-bottom:.0001pt'><!--[if gte vml 1]><v:line id="Straight_x0020_Connector_x0020_1"
+     o:spid="_x0000_s1026" style='position:absolute;left:0;text-align:left;
+     z-index:251659264;visibility:visible;mso-wrap-style:square;
+     mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+     mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+     mso-position-horizontal-relative:text;mso-position-vertical:absolute;
+     mso-position-vertical-relative:text' from="-35.95pt,3.4pt" to="486.7pt,3.4pt"
+     o:gfxdata="UEsDBBQABgAIAAAAIQDkmcPA+wAAAOEBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbJSRQU7DMBBF
+    90jcwfIWJQ5dIISSdEHaJSBUDjCyJ4nVZGx53NDeHictG4SKWNrj9//TuFwfx0FMGNg6quR9XkiB
+    pJ2x1FXyY7fNHqXgCGRgcISVPCHLdX17U+5OHlkkmriSfYz+SSnWPY7AufNIadK6MEJMx9ApD3oP
+    HapVUTwo7SgixSzOGbIuG2zhMESxOabrs0nCpXg+v5urKgneD1ZDTKJqnqpfuYADXwEnMj/ssotZ
+    nsglnHvr+e7S8JpWE6xB8QYhvsCYPJQJrHDlGqfz65Zz2ciZa1urMW8Cbxbqr2zjPing9N/wJmHv
+    OH2nq+WD6i8AAAD//wMAUEsDBBQABgAIAAAAIQAjsmrh1wAAAJQBAAALAAAAX3JlbHMvLnJlbHOk
+    kMFqwzAMhu+DvYPRfXGawxijTi+j0GvpHsDYimMaW0Yy2fr28w6DZfS2o36h7xP//vCZFrUiS6Rs
+    YNf1oDA78jEHA++X49MLKKk2e7tQRgM3FDiMjw/7My62tiOZYxHVKFkMzLWWV63FzZisdFQwt81E
+    nGxtIwddrLvagHro+2fNvxkwbpjq5A3wye9AXW6lmf+wU3RMQlPtHCVN0xTdPaoObMsc3ZFtwjdy
+    jWY5YDXgWTQO1LKu/Qj6vn74p97TRz7jutV+h4zrj1dvuhy/AAAA//8DAFBLAwQUAAYACAAAACEA
+    kGFkFuEBAAAmBAAADgAAAGRycy9lMm9Eb2MueG1srFPbitswEH0v9B+E3hvbWcgGE2cfsmxfShu6
+    7QcoshQLdGOkxs7fdyQ7dugWFkpfZF3OmZlzZrx7GowmFwFBOdvQalVSIix3rbLnhv788fJpS0mI
+    zLZMOysaehWBPu0/ftj1vhZr1zndCiAYxIa69w3tYvR1UQTeCcPCynlh8VE6MCziEc5FC6zH6EYX
+    67LcFL2D1oPjIgS8fR4f6T7Hl1Lw+E3KICLRDcXaYl4hr6e0Fvsdq8/AfKf4VAb7hyoMUxaTzqGe
+    WWTkF6g3oYzi4IKTccWdKZyUiousAdVU5R9qXjvmRdaC5gQ/2xT+X1j+9XIEolrsHSWWGWzRawSm
+    zl0kB2ctGuiAVMmn3oca4Qd7hOkU/BGS6EGCSV+UQ4bs7XX2VgyRcLzcbB4et5tHSvjtrViIHkL8
+    LJwhadNQrWySzWp2+RIiJkPoDZKutSV9Qx+2VYkt5cZj9e1JZ0ZwWrUvSuuEy1MkDhrIhWH/45B1
+    YLA7FJ60TWCRp2XKl7SO6vIuXrUYE38XEt1CPesxXZrTJQPjXNh4y6ItohNNYj0zsXyfOOGXqmZy
+    9T551HHL7GycyUZZB38LsBgjRzw6fqc7bU+uvea+5wccxtyU6cdJ035/zvTl997/BgAA//8DAFBL
+    AwQUAAYACAAAACEAtv6OON8AAAAHAQAADwAAAGRycy9kb3ducmV2LnhtbEyPzU7DMBCE70i8g7VI
+    XFDrhFT9CXGqAuoFCQQpB45uvCQR8TqN3SZ9exYucBzNaOabbD3aVpyw940jBfE0AoFUOtNQpeB9
+    t50sQfigyejWESo4o4d1fnmR6dS4gd7wVIRKcAn5VCuoQ+hSKX1Zo9V+6jok9j5db3Vg2VfS9Hrg
+    ctvK2yiaS6sb4oVad/hQY/lVHK2CJ3O+idvH7SE5lK/PRfIy3H/MNkpdX42bOxABx/AXhh98Roec
+    mfbuSMaLVsFkEa84qmDOD9hfLZIZiP2vlnkm//Pn3wAAAP//AwBQSwECLQAUAAYACAAAACEA5JnD
+    wPsAAADhAQAAEwAAAAAAAAAAAAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAI
+    AAAAIQAjsmrh1wAAAJQBAAALAAAAAAAAAAAAAAAAACwBAABfcmVscy8ucmVsc1BLAQItABQABgAI
+    AAAAIQCQYWQW4QEAACYEAAAOAAAAAAAAAAAAAAAAACwCAABkcnMvZTJvRG9jLnhtbFBLAQItABQA
+    BgAIAAAAIQC2/o443wAAAAcBAAAPAAAAAAAAAAAAAAAAADkEAABkcnMvZG93bnJldi54bWxQSwUG
+    AAAAAAQABADzAAAARQUAAAAA
+    " strokecolor="black [3213]" strokeweight="3pt">
+     <v:stroke linestyle="thinThin"/>
+    </v:line><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+    relative;z-index:251659264;left:-38px;top:1px;width:530px;height:8px'><img
+    width=530 height=7 src="KFryauff_Resume_2015_v2_1_files/image001.png" v:shapes="Straight_x0020_Connector_x0020_1"></span><![endif]><b><span
+    style='font-size:9.0pt;font-variant:small-caps'><o:p>&nbsp;</o:p></span></b></p>
+
+    <br style='mso-ignore:vglayout' clear=ALL>
+
+    <p class=MsoNormal style='
+    '><b><span style='font-size:9.0pt;
+    font-variant:small-caps'>Education:<o:p></o:p></span></b></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'>9/10-present<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>Stanford University</b>, Stanford, CA.
+    Undergraduate Program<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l3 level1 lfo1'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Pursuing Bachelor of Science Degree in Computer Science
+    with a concentration in Human Computer Interaction and a minor in Comparative
+    Studies in Race &amp; Ethnicity, to be conferred 12/15<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpMiddle style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l3 level1 lfo1;tab-stops:2.25in'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Coursework includes HCI, computer systems, visual
+    design, design process, race/ethnic studies, literature/poetry<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto'><span
+    style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><b><span style='font-size:9.0pt;
+    font-variant:small-caps'>Experience:<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><u>Technical/Research/Writing</u><o:p></o:p></span></b></p>
+
+    <p class=MsoNormal style='
+    margin-bottom:.0001pt'><span style='font-size:9.0pt'>1/14-present<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>Web Developer</b>, Center for Spatial and
+    Textual Analysis (CESTA), Stanford University, Stanford, CA<span
+    style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Produce two web-based design models for data
+    visualization using design, web, and GIS skills<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpMiddle style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Implement a platform to consider interactive mapping,
+    timeline filtering functionality and information integration<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Assist in the transfer of recorded documents into a new
+    database system<o:p></o:p></span></p>
+
+    <p class=MsoNormal><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'>6/13-6/15<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>Technical Intern</span></b><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>, Department of Entomology, Walter Reed Army Institute of
+    Research, Silver Spring, MD <o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='mso-add-space:auto;
+    text-indent:-.25in;mso-list:l5 level1 lfo3'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>Created testing phase designs for two departmental websites: <span
+    class=SpellE>VectorMap</span> &amp; WRBU<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l5 level1 lfo3'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>Improved user interface for identification algorithms &amp; IT
+    products<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    text-indent:-1.0in'><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>6/11-9/11<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt'>Research
+    Intern</span></b><span style='font-size:9.0pt'>, Viral &amp; <span
+    class=SpellE>Rickettsial</span> Diseases Program, Infectious Disease
+    Directorate, Naval Medical Research Center, Silver Spring, MD <o:p></o:p></span></p>
+
+    <p class=MsoListParagraph style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Investigated the purification and analysis of proteins
+    027a, 028a and 789a via High-Performance Liquid Chromatography (HPLC) and Mass Spectroscopy
+    (MS) from trypsin-digested samples<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='text-indent:.5in'><b><u><span
+    style='font-size:9.0pt;font-variant:small-caps'>Leadership/Management<o:p></o:p></span></u></b></p>
+
+    <p class=MsoNormal style='
+    margin-bottom:.0001pt'><span style='font-size:9.0pt'>6/12-6/15<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>New Member Educator</span></b><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>,<b style='mso-bidi-font-weight:normal'> </b>Sigma Theta Psi
+    Multicultural Sorority, Delta Chapter Incorporated, Stanford, CA <o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>Increased the active membership by 25% through design and
+    execution of events including Q&amp;A sessions, team building activities,
+    academic support, and multicultural events<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>Held position of President through 6/14<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    mso-pagination:none;mso-layout-grid-align:
+    none;text-autospace:none'><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>9/13-6/15<span style='mso-tab-count:
+    1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>President</b>,<b style='mso-bidi-font-weight:
+    normal'> </b>Multicultural Identified Community at Stanford, Stanford, CA<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>Produced new programming, organized leadership, and integration in
+    community centers<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>Promoted from position of Publicity Director 9/13<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'>9/12-6/14<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt'>Computing
+    Consultant</span></b><span style='font-size:9.0pt'>, <span class=SpellE>Muwekma-Tah-Ruk</span>
+    (native-themed residence), Stanford, CA<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l7 level1 lfo6'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Designed and supported house events/activities<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l7 level1 lfo6'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Provided technical support and taught a classes on
+    basic computing and multimedia skills and project building<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'>9/11-6/13<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt'>Publicity
+    Coordinator/Financial Officer</span></b><span style='font-size:9.0pt'>, <span
+    class=SpellE>Carnaval</span> Core, Latinos <span class=SpellE>Unidos</span>/<span
+    class=SpellE>Carnaval</span> Committee, Stanford, CA <o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l1 level1 lfo7'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Organized event details to bring cultural diversity to
+    light in a Latin American tradition<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpMiddle style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l1 level1 lfo7'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Constructed and managed the budget, financial details
+    and paperwork<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l1 level1 lfo7'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Created publicity strategies and designed
+    advertisements<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'>6/12-9/12<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>Computing Technical Support Specialist</b>,<b
+    style='mso-bidi-font-weight:normal'> </b>Stanford Academic Computing, Stanford,
+    CA<o:p></o:p></span></p>
+
+    <p class=MsoListParagraph style='margin-bottom:
+    0in;mso-add-space:auto;text-indent:
+    -.25in;mso-list:l4 level1 lfo8'><![if !supportLists]><span style='font-size:
+    9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+    Symbol'><span style='mso-list:Ignore'>&bull;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span></span></span><![endif]><span style='font-size:9.0pt'>Managed network
+    issues, performed cluster machine maintenance and provided technical assistance<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'>6/11-6/12<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>Lead Web Designer</b>,<b style='mso-bidi-font-weight:
+    normal'> </b>Native American Cultural Center, Stanford, CA <o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l4 level1 lfo8'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Constructed and managed a Facebook and flash-based
+    wiki-page<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l4 level1 lfo8'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Designed and integrated concepts of breaking
+    cross-cultural barriers and identity into a web-based interactive medium<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='margin-bottom:
+    0in;'><span style='font-size:9.0pt'>8/10-9/11<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>Midshipman</b>, Naval<b style='mso-bidi-font-weight:
+    normal'> </b>Reserve Officer Training Corps, United States Navy, University of
+    California, Berkeley Unit <o:p></o:p></span></p>
+
+    <p class=MsoListParagraph style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Trained as an officer candidate, managing and executing
+    events, tasks and personnel<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='text-indent:.5in'><b><u><span
+    style='font-size:9.0pt;font-variant:small-caps'>Teaching/Counseling<o:p></o:p></span></u></b></p>
+
+    <p class=MsoNormal style='
+    mso-pagination:none;mso-layout-grid-align:
+    none;text-autospace:none'><span style='font-size:9.0pt'>9/10-present<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>Private Tutor</span></b><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>, Stanford, CA<o:p></o:p></span></p>
+
+    <p class=MsoListParagraph style='mso-add-space:auto;text-indent:
+    -.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span style='font-size:
+    9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+    Symbol'><span style='mso-list:Ignore'>&bull;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span></span></span><![endif]><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>Tutor students in the introductory
+    CS courses at Stanford (Java &amp; C++ based courses)<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    mso-pagination:none;mso-layout-grid-align:
+    none;text-autospace:none'><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>9/14-6/15<span style='mso-tab-count:
+    1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>Soccer Coach, </b>Coaching Corps, Boys
+    &amp; Girls Club of the Peninsula, Stanford, CA<o:p></o:p></span></p>
+
+    <p class=MsoListParagraph style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:
+    minor-latin'>Coached youth soccer at a community center, engaging with kids and
+    setting long term standards for healthy living<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    mso-pagination:none;mso-layout-grid-align:
+    none;text-autospace:none'><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>9/11-6/12<span style='mso-tab-count:
+    1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
+    style='mso-bidi-font-weight:normal'>Instructor</b>, Stanford Residential
+    Computing, Stanford, CA<o:p></o:p></span></p>
+
+    <p class=MsoListParagraph style='margin-bottom:
+    0in;mso-add-space:auto;text-indent:
+    -.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span style='font-size:
+    9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+    Symbol'><span style='mso-list:Ignore'>&bull;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span></span></span><![endif]><span style='font-size:9.0pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'>Taught classes on general computing
+    and multimedia productions<o:p></o:p></span></p>
+
+    <p class=MsoNormal style=''><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt;
+    mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin'>10/11-6/12<span
+    style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt'>Instructor,</span></b><span
+    style='font-size:9.0pt'> <span class=SpellE>ThinkMath</span> (formally F4Ed)
+    Palo Alto, CA <o:p></o:p></span></p>
+
+    <p class=MsoListParagraph style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Adapted math lesson plans integrated with stories and
+    games and taught small groups of elementary school students <o:p></o:p></span></p>
+
+    <p class=MsoNormal><b><span style='font-size:9.0pt;
+    font-variant:small-caps'>Skills</span></b><span style='font-size:9.0pt'>:<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Experience with Java, C++, C, HTML5, CSS3, SASS,
+    Twitter <span class=SpellE>BootStrap</span>, <span class=SpellE>Javascript</span>,
+    AJAX, JSON, D3, Ruby on Rails, node.js, Python, PHP, SQL, AAMPS, Dr. Scheme, <span
+    class=SpellE>TrueBasic</span>, Interactive C<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpMiddle style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Understanding of GIS systems, ArcGIS, shape files, <span
+    class=SpellE>GEOjson</span>, <span class=SpellE>Topojson</span>, D3
+    integration, <span class=SpellE>Wireframing</span>, Sketching, and the Design
+    Process<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Proficiency with Microsoft Office Suite, Publisher,
+    Photoshop, Illustrator, Dreamweaver, Muse, Eclipse, and limited experience with
+    <span class=SpellE>Garageband</span>, iMovie, Video &amp; Audio editing<o:p></o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><span style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+    <p class=MsoNormal style='
+    '><b><span style='font-size:9.0pt;
+    font-variant:small-caps'>Additional <o:p></o:p></span></b></p>
+
+    <p class=MsoNormal style='
+    '><b><span style='font-size:9.0pt;
+    font-variant:small-caps'>Information:<o:p></o:p></span></b></p>
+
+    <p class=MsoListParagraphCxSpFirst style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Born in Italy and raised in Jakarta, Indonesia and have
+    travelled in the US, Indonesia, Mediterranean, Mexico, North Africa, New
+    Zealand, Australia, Singapore, South Pacific Islands<o:p></o:p></span></p>
+
+    <p class=MsoListParagraphCxSpLast style='
+    mso-add-space:auto;
+    text-indent:-.25in;mso-list:l8 level1 lfo9'><![if !supportLists]><span
+    style='font-size:9.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+    mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+    style='font-size:9.0pt'>Interests include Piano and Alto Saxophone; Writing
+    Poetry, Novels; Dragon Boating; <span class=SpellE>F&bull;tbol</span>; </span><b
+    style='mso-bidi-font-weight:normal'><span style='font-size:9.5pt;mso-fareast-font-family:
+    Cambria;mso-fareast-theme-font:minor-latin'><o:p></o:p></span></b></p>
+
+  </div>
+</div>

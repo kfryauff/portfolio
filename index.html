@@ -1,66 +1,63 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="portfolio">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- TODO: Change Title for Launch -->
-  <title>K. Fryauff</title>
+    <!-- TODO: Change Title for Launch -->
+    <title>K. Fryauff</title>
 
-  <!-- FontKit -->
-  <script src="//use.typekit.net/upv8lie.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- FontKit -->
+    <script src="//use.typekit.net/upv8lie.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-  <!-- JQUERY INCLUDES -->
-  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- JQUERY INCLUDES -->
+    <!-- <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 
-  <!-- BOOTSTRAP INCLUDES -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="assets/lib/theme.css">
+    <!-- BOOTSTRAP INCLUDES -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="assets/lib/theme.css">
 
-  <!-- TODO: Delete if Unnecessary:: -->
-  <!-- Latest compiled and minified JavaScript -->
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+    <!-- TODO: Delete if Unnecessary:: -->
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 
-  <!-- Link Custom CSS -->
-  <link rel="stylesheet" href="assets/css/custom.css">
-</head>
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+  </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <header></header>
-  <landing></landing>
-  <aboutme></aboutme>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" ng-controller="mainCtrl as mc">
 
-    <div id="projects" class="section container-fluid">
-      <h1>Projects</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="skills" class="section container-fluid">
-      <h1>Skills</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="resume" class="section container-fluid">
-      <h1>Resume</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
+    <header></header>
 
-  <footer></footer>
+    <landing class="section container-fluid"></landing>
+    <aboutme class="section container-fluid"></aboutme>
+    <projects class="section container-fluid"></projects>
+    <skills class="section container-fluid"></skills>
+    <resume class="section container-fluid"></resume>
+
+    <footer></footer>
 
 
-  <!-- Include JS Files-->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
-  <script type="text/javascript" src="app/profileCtrl.js"></script>
-  <script type="text/javascript" src="app/nav/navDirective.js"></script>
-  <script type="text/javascript" src="app/sections/landing/landingDirective.js"></script>
-  <script type="text/javascript" src="app/app.js"></script>
-</body>
+    <!-- Include JS Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
+    <script src="assets/lib/ui-bootstrap-tpls-0.13.4.min.js"></script>
+    <script type="text/javascript" src="app/profileCtrl.js"></script>
+    <script type="text/javascript" src="app/nav/navDirective.js"></script>
+    <script type="text/javascript" src="app/sections/landing/landingDirective.js"></script>
+    <script type="text/javascript" src="app/sections/aboutme/aboutmeDirective.js"></script>
+    <script type="text/javascript" src="app/sections/projects/projectsCtrl.js"></script>
+    <script type="text/javascript" src="app/sections/projects/projectsDirective.js"></script>
+    <script type="text/javascript" src="app/sections/skills/skillsDirective.js"></script>
+    <script type="text/javascript" src="app/sections/resume/resumeDirective.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+
+  </body>
 
 </html>
