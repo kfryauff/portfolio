@@ -1,7 +1,8 @@
 (function (){
 
   var app = angular.module('portfolio', [
-    'ngRoute',
+    'ui.router',
+    'duScroll',
     'profileCtrl',
     'navDirectives',
     'landingDirectives',
