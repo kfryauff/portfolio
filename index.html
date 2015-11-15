@@ -36,11 +36,12 @@
 
     <landing class="section container-fluid"></landing>
     <aboutme class="section container-fluid"></aboutme>
-    <projects class="section container-fluid"></projects>
+    <projects class="section container-fluid transformable" ng-class="{'small':isSmall, 'big':!isSmall}" ng-click="isSmall = !isSmall"></projects>
+    <!-- <div class="transformable" ng-class="{'small':isSmall, 'big':!isSmall}" ng-click="isSmall = !isSmall"> </div> -->
     <skills class="section container-fluid"></skills>
     <resume class="section container-fluid"></resume>
 
-    <footer></footer>
+    <!-- <footer></footer> -->
 
 
     <!-- Include JS Files-->
@@ -50,7 +51,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.7.3/angular-scroll.min.js"></script>
 
-    <script src="assets/lib/ui-bootstrap-tpls-0.13.4.min.js"></script>
+    <!-- <script src="assets/lib/ui-bootstrap-tpls-0.13.4.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
 
     <script type="text/javascript" src="app/profileCtrl.js"></script>
     <script type="text/javascript" src="app/nav/navDirective.js"></script>
