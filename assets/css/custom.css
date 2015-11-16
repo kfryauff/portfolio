@@ -105,7 +105,7 @@
 #aboutme {
   background: linear-gradient(transparent, black), url("../images/aboutme_bg.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: 100% auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }

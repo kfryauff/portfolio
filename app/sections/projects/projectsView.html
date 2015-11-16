@@ -3,7 +3,7 @@
   <div class="form-group">
     <input type="text" class="form-control" name="project-search" ng-model="searchText" placeholder="Search Projects" />
   </div>
-  <div class="col-sm-4 col-md-3" ng-repeat="project in filteredProjects = (projCtrl.projects | filter:searchText)">
+  <div class="col-xs-6 col-sm-4 col-md-3" ng-repeat="project in filteredProjects = (projCtrl.projects | filter:searchText)">
     <div class="project thumbnail">
       <a href="#"><img ng-src="{{project.images[0]}}"></a>
       <div class="caption">
