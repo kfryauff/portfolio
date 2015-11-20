@@ -2,76 +2,80 @@
   border: red 1px solid;
   min-height: 10px; }
 
-#card_container {
+#landing {
+  display: block;
   position: relative;
-  height: 70vh;
-  text-align: center;
-  margin: 40px 0 0; }
-  #card_container::before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%; }
-  #card_container #card {
+  height: 830px; }
+  #landing::after {
+    content: "";
+    background: url("../images/landing_texture.jpg");
+    background-size: 100% 890px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute; }
+  #landing #card_container {
     position: relative;
-    display: inline-block;
-    margin: auto auto;
-    width: 40vw;
-    height: 25vw;
-    min-height: 10vw;
-    max-height: 30vh;
-    vertical-align: middle;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.75);
-    background-image: url("../images/K_bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: auto 110%;
-    border: 1pt solid rgba(149, 149, 149, 0.75); }
-    #card_container #card::before {
+    height: 446px;
+    text-align: center;
+    margin: 40px 0 0; }
+    #landing #card_container::before {
       content: '';
-      z-index: 50;
-      opacity: 0.35;
-      top: -50px;
-      bottom: -50px;
-      left: -90px;
-      right: -110px;
-      position: absolute;
-      overflow: visible; }
-  #card_container #feature {
-    position: absolute;
-    width: 35vw;
-    height: 25vh;
-    overflow: hidden;
-    min-height: 10vw;
-    max-height: 30vh;
-    z-index: 10;
-    border: 0.5pt solid rgba(149, 149, 149, 0.75); }
-    #card_container #feature.left_card {
-      left: 0px;
-      top: 0px; }
-    #card_container #feature.right_card {
-      right: 0px;
-      bottom: 0px; }
-    #card_container #feature img {
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%); }
-      #card_container #feature img:hover {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%); }
-
-@media (max-width: 768px) {
-  #card_container {
-    margin-top: 0px; }
-    #card_container:before {
-      display: none; }
-    #card_container #card, #card_container #feature {
-      margin: 5px 0;
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%; }
+    #landing #card_container #card {
       position: relative;
-      width: 100%;
-      height: 20vh; }
-      #card_container #card:before, #card_container #feature:before {
-        display: none; } }
+      display: inline-block;
+      margin: auto auto;
+      width: 443px;
+      height: 230px;
+      vertical-align: middle;
+      z-index: 100;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-image: url("../images/K_bg.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: auto 110%;
+      border: 3px solid rgba(149, 149, 149, 0.75); }
+    #landing #card_container #feature {
+      position: absolute;
+      width: 32.28%;
+      height: 25vh;
+      overflow: hidden;
+      min-height: 10vw;
+      max-height: 30vh;
+      z-index: 10;
+      border: 0.5pt solid rgba(149, 149, 149, 0.75); }
+      #landing #card_container #feature.left_card {
+        left: 0px;
+        top: 0px; }
+      #landing #card_container #feature.right_card {
+        right: 0px;
+        bottom: 0px; }
+      #landing #card_container #feature img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%); }
+        #landing #card_container #feature img:hover {
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%); }
+  @media (max-width: 768px) {
+    #landing #card_container {
+      margin-top: 0px; }
+      #landing #card_container:before {
+        display: none; }
+      #landing #card_container #card, #landing #card_container #feature {
+        margin: 5px 0;
+        position: relative;
+        width: 100%;
+        height: 20vh; }
+        #landing #card_container #card:before, #landing #card_container #feature:before {
+          display: none; } }
+
 .transformable {
   -webkit-transition: height 100ms linear;
   -moz-transition: height 100ms linear;
@@ -125,8 +129,7 @@
   left: 0;
   right: 0;
   height: 40px;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.95); }
+  background: rgba(0, 0, 0, 0.75); }
 #header nav li, #header nav ul {
   list-style: none;
   margin: 0;
@@ -139,7 +142,7 @@
   color: #333;
   text-decoration: none; }
 #header a:hover {
-  background: #fff; }
+  background: gray; }
 #header a.active {
   background: #323232;
   color: #fff; }
@@ -193,7 +196,6 @@ body {
   .section .section_content {
     padding-top: 60px;
     padding-bottom: 60px;
-    min-height: 95vh;
     color: #fff;
     background-color: #000; }
 

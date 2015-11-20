@@ -1,8 +1,8 @@
-<div id="header">
+<!-- <div id="header">
   <nav>
     <div>
       <ul>
-        <li><a href="#aboutme" du-smooth-scroll du-scrollspy>Me</a></li>
+        <li><a ui-sref="aboutme" du-smooth-scroll du-scrollspy>Me</a></li>
         <li><div>.</div></li>
         <li><a href="#projects" du-smooth-scroll du-scrollspy>Projects</a></li>
         <li><div>.</div></li>
@@ -12,8 +12,8 @@
       </ul>
     </div>
   </nav>
-</div>
-<!-- <nav id="header" class="navbar navbar-inverse navbar-fixed-top">
+</div> -->
+<nav id="header" class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -25,15 +25,15 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#aboutme" du-smooth-scroll du-scrollspy>Me</a></li>
+          <li du-smooth-scroll du-scrollspy="aboutme_section"><a href="#aboutme_section">Me</a></li>
           <li><div>.</div></li>
-          <li><a href="#projects" du-smooth-scroll du-scrollspy>Projects</a></li>
+          <li du-smooth-scroll du-scrollspy="projects_section"><a href="#projects_section">Projects</a></li>
           <li><div>.</div></li>
-          <li><a href="#skills" du-smooth-scroll du-scrollspy>Skills</a></li>
+          <li du-smooth-scroll du-scrollspy="skills_section"><a href="#skills_section">Skills</a></li>
           <li><div>.</div></li>
-          <li><a href="#resume" du-smooth-scroll du-scrollspy>Resume</a></li>
+          <li du-smooth-scroll du-scrollspy="resume_section"><a href="#resume_section">Resume</a></li>
         </ul>
       </div>
     </div>
   </div>
-</nav> -->
+</nav>

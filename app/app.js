@@ -15,6 +15,24 @@
     'resumeDirectives'
   ]);
 
+  app.value('duScrollOffset', 120);
+
+  app.config([
+    '$stateProvider',
+    '$urlRouterProvider',
+    function($stateProvider, $urlRouterProvider) {
+
+      $stateProvider
+        .state('home', {
+          url:'/home',
+          templateUrl: 'index.html',
+          controller: 'mainCtrl'
+        });
+
+      $urlRouterProvider.otherwise('home');
+    }
+  ]);
+
   app.factory('projects', [function () {
     var obj = {
       projects: [

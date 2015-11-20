@@ -33,13 +33,12 @@
   <body data-spy="scroll" data-target=".navbar" data-offset="50" ng-controller="mainCtrl as mc">
 
     <header></header>
-
-    <landing class="section container-fluid"></landing>
-    <aboutme class="section container-fluid"></aboutme>
-    <projects class="section container-fluid transformable" ng-class="{'small':isSmall, 'big':!isSmall}" ng-click="isSmall = !isSmall"></projects>
+    <landing id="landing_section" class="section container-fluid"></landing>
+    <aboutme id="aboutme_section" class="section container-fluid"></aboutme>
+    <projects id="projects_section" class="section container-fluid transformable" ng-class="{'small':isSmall, 'big':!isSmall}" ng-click="isSmall = !isSmall"></projects>
     <!-- <div class="transformable" ng-class="{'small':isSmall, 'big':!isSmall}" ng-click="isSmall = !isSmall"> </div> -->
-    <skills class="section container-fluid"></skills>
-    <resume class="section container-fluid"></resume>
+    <skills id="skills_section" class="section container-fluid"></skills>
+    <resume id="resume_section" class="section container-fluid"></resume>
 
     <!-- <footer></footer> -->
 

@@ -5,11 +5,14 @@
   </div>
   <div class="col-xs-6 col-sm-4 col-md-3" ng-repeat="project in filteredProjects = (projCtrl.projects | filter:searchText)">
     <div class="project thumbnail">
-      <a href="#"><img ng-src="{{project.images[0]}}"></a>
-      <div class="caption">
-        <h5>{{project.title}}</h5>
-        <h6>{{project.company}}</h6>
-      </div>
+
+        <figure><a href="#">
+          <img ng-src="{{project.images[0]}}">
+          <figcaption class="caption">
+            <h5>{{project.title}}</h5>
+            <h6>{{project.company}}</h6>
+          </figcaption>
+        </a></figure>
     </div>
   </div>
   <div class="noResult" ng-hide="filteredProjects.length">
