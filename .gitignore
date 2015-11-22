@@ -1,6 +1,10 @@
 .DS_Store
 build
 node_modules
+bower_components
+/selenium
+/coverage
+/app/assets
 Makefile
 .sass-cache/
 data/
